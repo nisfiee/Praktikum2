@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+void main()
+{
+	int a, b, c, d ;
+	int r = 10;
+	int s;
+	a = 5;
+	b = 600;
+	c = 5;
+	d = b*b-4*a*c;
+	s = 10 + r++;			//r++ adalah r increment (r+1)
+
+	cout<< "d = " <<d <<endl;		//tampilkan d
+	cout<< "r = " <<r <<endl;		//tampilkan r
+	cout<< "s = " <<s <<endl;		//tampilkan s
+
+	r = 10;
+	s = 10 + ++r;			
+
+	cout<< "r = " <<r <<endl;		//tampilkan r terbaru (yang sudah diubah nilainya)
+	cout<< "s = " <<s <<endl;		//tampilkan s terbaru (yang sudah diubah nilainya)
+	cout<< "Hasil dari 5 % 7 adalah = " <<5%7 <<endl;			// 5%7 adalah 5 mod 7
+
+	system ("pause");
+
+}
