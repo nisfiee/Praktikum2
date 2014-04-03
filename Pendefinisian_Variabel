@@ -1,0 +1,42 @@
+#include <iostream>
+
+using namespace std;
+
+void main()
+{
+	char kar;					//variabel kar dengan tipe data char
+	kar = 'A';					//isi variabel kar 
+
+	int bil;					//variabel bil dengan tipe data int
+	bil = 32763;				//isi variabel bil
+
+	long jml_penduduk;			//variabel jml_penduduk dengan tipe data long
+	jml_penduduk = 170123456;	//isi variabel jml_penduduk
+
+	float bil_float;			//variabel bil_float dengan tipe data float
+	bil_float = 1.23e2;			//isi variabel bil_float
+
+	float a;					//variabel a dengan tipe data float
+	double b;					//variabel b dengan tipe data double
+	a = 56.0123456789123456789; // isi variabel a
+	b = 56.0123456789123456789;	// isi variabel b
+
+	cout<< "Isi Kar = " <<kar <<"\n";			//menampilkan kar
+
+	kar = 66; //66 adalah B (ASCII)
+
+	cout<< "Isi Kar = " <<kar <<"\n";			//menampilkan kar (terbaru) atau yang udah diubah 
+	cout<< "Isi Bilangan = " <<bil <<endl;		////menampilkan bil
+
+	bil = -66; //variabel bil diisi angka -66 (pendefinisian)
+	
+	cout<< "Isi Bilangan = " <<bil <<endl;		//menampilkan bil (terbaru) yang sudah diubah
+	cout<< "Isi Jumlah Penduduk = " <<jml_penduduk <<endl;		//menampilkan jml_penduduk
+	cout<< "Isi Bilangan Float = " <<bil_float <<endl;			//menampilkan bil_float
+	cout<< "Isi a (float) = " <<a <<endl;						//menampilkan a
+	cout<< "Isi b (double) = " <<b <<endl;						//menampilkan b
+
+
+	system ("pause");  
+}
+
